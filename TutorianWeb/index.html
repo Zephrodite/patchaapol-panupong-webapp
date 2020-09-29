@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorian</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <style>
+            body {
+                background-image: url('images/signupTTR.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 54px;
+                color: white;
+                text-shadow: 2px 2px 4px #000000;
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="navigation-bar">
+            <div id="navigation-container">
+                <a href="#tutorian"><img src="images/ttricon.jpg" alt="Tutorian logo" class="logo"></a>
+
+                <ul class="floatLeft">
+                    <li><a class="menus" href="#myProfiles">My Profiles </a></li>
+                    <li><a class="menus" href="#support">Support</a></li>
+                    <li><a class="menus" href="#aboutUs">About Us</a></li>
+                </ul>
+                <ul class="floatRight">
+                    <li><a href="#login">Login</a></li>
+                    <li><a id ="signUpButtn" href="#signUp">Sign Up</a></li>
+                </ul>
+               
+            </div>
+        </div>
+        <form>
+            <p id="signupHead">Sign Up</p>
+            <div class="container">
+              <label for="fname"><b>First Name <span><span style="color: red;"> *</span></b></label>
+              <input type="text" placeholder="Enter First Name" name="fname" required>
+              <label for="lname"><b>Last Name <span><span style="color: red;"> *</span></b></label>
+              <input type="text" placeholder="Enter Last Name" name="lname" required>
+              <label for="psw"><b>Password <span><span style="color: red;"> *</span></b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+              <label for="cfpsw"><b>Confirm Password <span><span style="color: red;"> *</span>
+            </b></label>
+              <input type="password" placeholder="Confirm Password" name="cfpsw" required>
+              <button type="submit" class="signupBtn">Sign Up</button>        
+            </div>
+            <div class="container paddingButtom25px">
+                <p class="signupText">By clicking the Sign Up button, you agree to our</p>
+                <p class="signupText"><a href="#termsAndConditions" style="color: #2fd19b; text-decoration: none;">Terms & Conditions</a>
+                    , and <a href="#privacyPolicy" style="color: #2fd19b; text-decoration: none;">Privacy Policy</a> </p>
+            </div>
+        </form>
+
+    </body>
+</html>
