@@ -62,6 +62,9 @@ ul {
         padding: 12px 28px;
         border-radius: 24px;
     }
+    #signUpButtn:hover{
+        background-color: #00c09a;
+    }
 
 
     form {
@@ -70,7 +73,7 @@ ul {
         margin: auto;
         margin-top: 50px;
         border-radius: 30px;
-        box-shadow: 3px 3px 5px 3px #3d3d3d;
+        box-shadow: 4px 4px 13px 2px rgba(0,0,0,0.75);
 
     }
 
@@ -130,7 +133,9 @@ ul {
         float: right;
         color: #008cff;
         text-decoration: none;
-
+    }
+    .forgotPsw:hover {
+        text-decoration: underline;
     }
 
     .loginWithOthers {
@@ -140,8 +145,19 @@ ul {
     .icon {
         margin: 0 20px;
         width: 60px;
+        border-radius: 50%;
+    }
+    .icon:hover {
+        box-shadow: 0px 1px 11px -2px rgba(0,0,0,0.75);
     }
 
     .paddingButtom25px {
         padding-bottom: 25px;
+    }
+    .sign-up-word {
+        color: #008cff; 
+        text-decoration: none;
+    }
+    .sign-up-word:hover {
+        text-decoration: underline;
     }
