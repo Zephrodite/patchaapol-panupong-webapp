@@ -67,40 +67,44 @@ ul {
         border-radius: 50%;
         padding-right: 8px;
     }
+    .username:hover {
+        line-height: 50px;
+        background-color: #63a2a7;
+        border-radius: 40px;
+    }
     .logOut {
         font-size: 10px;
         color: rgb(139, 139, 139);
+    }
+    .logOut:hover {
+        background-color: #63a2a7;
+        border-radius: 40px;
     }
 
     .header-background {
         width: 100%;
         height: 80px;
-        background-color: black;
-
+        background-image: url('/images/profiles-bg.png');
+        background-repeat: no-repeat;
+        position: relative;
     }
-    .profileBG {
-        max-width: 100%;
-    }
-
     .header-pos {
         font-size: 30px;
         font-weight: bold;
         letter-spacing: 2px;
+        float: left;
         color: white;
-        position: absolute;
-        top: 110px;
-        left: 380px;
         cursor: default;
+        margin: 24px 0px 0px 360px;
     }
     .container {
         margin: 30px auto;
         width: 1200px;
-
     }
     .addBtn {
         color: white;
         background-color: #51D2AB;
-        width: 80px;
+        width: 100px;
         height: 35px;
         border-radius: 11px;
         border: 0;
@@ -115,7 +119,7 @@ ul {
         color: rgb(83, 83, 83);
         background-color: white;
         float: right;
-        width: 80px;
+        width: 100px;
         height: 35px;
         border-radius: 11px;
         border: 2px solid rgb(83, 83, 83);
@@ -148,7 +152,7 @@ ul {
     .prof-name {
         font-size: 48px;
         padding: 48px 20px;
-        color: white;
+        color: rgb(255, 255, 255);
         font-weight: bolder;
         text-shadow: 1px 1px 1px 1px black;
         float: left;

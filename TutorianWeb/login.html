@@ -32,13 +32,10 @@
                 <a href="#tutorian"><img src="images/tutorian-logo.png" alt="Tutorian logo" class="logo"></a>
 
                 <ul class="floatLeft">
-                    <li><a class="menus" href="#myProfiles">My Profiles</a></li>
-                    <li><a class="menus" href="#support">Support</a></li>
                     <li><a class="menus" href="#aboutUs">About Us</a></li>
                 </ul>
                 <ul class="floatRight">
-                    <li><a href="#login">Login</a></li>
-                    <li><a id ="signUpButtn" href="#signUp">Sign Up</a></li>
+                    <li><a id ="signUpButtn" href="http://127.0.0.1:5500/sign-up.html">Sign Up</a></li>
                 </ul>
             </div>
         </div>
@@ -49,9 +46,9 @@
             <p id="loginHead">Login</p>
             <div class="container">
               <label for="uname"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="uname" required>
+              <input type="text" placeholder="Enter Email" name="uname" required style="margin-top: 4px;">
               <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input type="password" placeholder="Enter Password" name="psw" required style="margin-top: 4px;">
               <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label>
@@ -64,9 +61,14 @@
                     <a href="#facebookLogin"><img src="images/facebook.png" alt="facebook" class="icon"></a>
                     <a href="#googleLogin"><img src="images/google.png" alt="google" class="icon"></a>
                 </div>
-                <p class="loginText">Don't have an account? <a href="#signUp" style="color: #008cff; text-decoration: none;">Sign Up!</a></p>
+                <p class="loginText">Don't have an account? <a href="http://127.0.0.1:5500/sign-up.html" class="sign-up-word">Sign Up!</a></p>
             </div>
         </form>
 
+        <script>
+            document.getElementsByClassName('loginBtn')[0].onclick = function() {
+                location.href = "http://127.0.0.1:5500/profiles.html"
+            }
+        </script>
     </body>
 </html>
